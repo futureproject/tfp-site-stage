@@ -15,6 +15,5 @@ nav:
   jobs:
     label: 'Join'
     path: '/jobs/'
-
-exclude: [vendor]
-
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
