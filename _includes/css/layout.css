@@ -1,6 +1,7 @@
 #site-header {
   padding-top: 15px;
   line-height: 1;
+  padding-bottom: 15px;
 }
 #site-header h1 { display: none; }
 
@@ -15,22 +16,21 @@
   font-size: 20px;
   text-transform: uppercase;
   opacity: 0.8;
-  border-bottom: 2px solid transparent;
   position: relative;
 }
-#site-nav a:hover {
+#site-nav a:hover, #site-nav a.active {
   opacity: 1;
 }
-#site-nav a:hover:after {
+#site-nav a.active:after {
   content: '';
   display: block;
-  height: 2px;
-  width: 60px;
+  height: 5px;
+  width: 70px;
   background: white;
   position: absolute;
   left: 50%;
-  top: 40px;
-  margin-left: -30px;
+  top: 45px;
+  margin-left: -35px;
 }
 #site-nav a.home { height: 60px; width: 60px; opacity: 1; }
 #site-nav a.home:hover:after { display: none; }

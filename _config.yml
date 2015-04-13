@@ -12,7 +12,7 @@ nav:
   who:
     label: 'Who'
     path: '/who/'
-  join:
+  jobs:
     label: 'Join'
     path: '/jobs/'
 
