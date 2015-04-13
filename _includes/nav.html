@@ -1,0 +1,10 @@
+<section id="primary_nav">
+  <nav>
+    <a class="home" href="/"><span>Home Page</span></a>
+    {% for n in site.nav %}
+      <a {% if (page.url contains n[0] %}class="is_active" {% endif %} href="{{ n[1].path }}">
+        {{ n[1].label }}
+      </a>
+    {% endfor %}
+  </nav>
+</section>

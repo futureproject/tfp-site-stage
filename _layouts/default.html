@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us" manifest="/tfp.appcache">
+<head>
+<title>{% if page.title %}{{ page.title }} | {% endif %}The Future Project</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="The Future Project is a national movement to empower the next generation to build the future, one dream at a time." />
+<!-- <meta name="viewport" content="width=1024" /> -->
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="stylesheet" href="/assets/style.css" />
+<link rel="stylesheet" href="/assets/andy.css" />
+<link href="/assets/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+</head>
+<body class="{{ page.layout }} {{ page.css_class }}">
+
+{% include nav.html %}
+
+<section class="page">
+  {% if page.headline_text %}
+  <header class="headline" style="background-image: url({{ page.headline_img }});">
+    <div>
+      <h1>{{ page.headline_text }}</h1>
+    </div>
+  </header>
+  {% endif %}
+  {{ content }}
+</section>
+
+{% include footer.html %}
+
+</body>
+</html>

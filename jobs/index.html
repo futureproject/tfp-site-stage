@@ -1,0 +1,33 @@
+---
+title: Jobs
+layout: v2
+---
+<header class='headline align-center bg-tfp-blue'>
+  We‘re building a great team. Join us.
+</header>
+
+<ul class='job-listings grid'>
+{% for job in site.categories.jobs %}
+  <li class='job-listing col4'>
+    <a href="{{ job.link }}">
+      <div class='swapping-icons'>
+        <img src="job_icons/{{ job.icon }}" alt="{{ job.title }}" />
+        <img src="job_icons/{{ job.hover }}" alt="{{ job.title }}" />
+      </div>
+      <div class="job-title">{{ job.title }}</div>
+    </a>
+    <div class="job-details">
+      <div class="job-description">
+        <div class='job-title'>{{ job.title }}</div>
+        {{ job.content }}
+      </div>
+      <a href="{{ job.link }}" class="button">Apply Now</a>
+    </div>
+  </li>
+{% endfor %}
+</ul>
+
+<article class="sized align-center">
+  <a href="/who" class='button bg-tfp-blue'>Meet the Team</a>
+</article>
+

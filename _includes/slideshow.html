@@ -1,0 +1,47 @@
+<article class='swipe' id="slideshow_{{ slides[0].categories }}" >
+  <div class='swipe-wrap'>
+    {% for slide in slides %}
+    <div>
+      <figure class='row sized'>
+        {% if slide.big_image %}
+          <img src="{{ slide.big_image }}" class="big_image" />
+          <div class="caption">
+            <div class='row sized'>
+              {{ slide.content }}
+            </div>
+          </div>
+        {% else %}
+          {{ slide.content }}
+        {% endif %}
+      </figure>
+    </div>
+    {% endfor %}
+  </div>
+  <footer>
+  </footer>
+</article>
+{% assign slides = nil %}
+
+<article class='swipe' id="slideshow_{{ slides[0].categories }}" >
+  <div class='swipe-wrap-full-bleed'>
+    {% for slide in slides %}
+    <div>
+      <figure class='row full-bleed'>
+        {% if slide.big_image %}
+          <img src="{{ slide.big_image }}" class="big_image" />
+          <div class="caption">
+            <div class='row full-bleed'>
+              {{ slide.content }}
+            </div>
+          </div>
+        {% else %}
+          {{ slide.content }}
+        {% endif %}
+      </figure>
+    </div>
+    {% endfor %}
+  </div>
+  <footer>
+  </footer>
+</article>
+{% assign slides = nil %}

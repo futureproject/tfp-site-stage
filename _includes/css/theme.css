@@ -1,0 +1,81 @@
+/*
+ * tfp-blue: #84dbf5 rgb(132, 219, 245);
+ * dark-blue: #1d456b;
+ * dark-grey: #231f20;
+ * black-blue: #121e29;
+*/
+
+html {
+  background: #121e29;
+  font-family: 'AvenirLTStd', 'Avenier Next', 'Avenir', sans-serif;
+  color: #231f20;
+}
+
+#page-content {
+  background: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+a {
+  color: #1d456b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+input[type=submit], button, .button {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  background-color: #84dbf5;
+  color: white;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type=submit]:hover, button:hover, .button:hover {
+  -webkit-filter: saturate(150%);
+  -moz-filter: saturate(150%);
+  filter: saturate(150%);
+}
+input[type=submit]:active, button:active, .button:active {
+  -webkit-transform: translateY(1px);
+  -moz-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+}
+
+.bg-tfp-blue { background-color: #84dbf5; color: white; }
+.color-white { color: white; }
+
+.headline {
+  font-weight: 600;
+  font-size: 3em;
+  line-height: 1;
+}
+
+.align-center {
+  text-align: center;
+}
+
+#site-footer {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#site-footer h3 {
+  color: white;
+}
+#site-footer a {
+  color: white;
+  opacity: .8;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+#site-footer a:hover {
+  opacity: 1;
+}
+

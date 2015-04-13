@@ -1,0 +1,8 @@
+<div class="person {{ person.team }}" data-team="{{ person.team }}" {% if person.hide_bio %} data-hide-bio {% endif %}>
+  <img width="250" height="250" src="{{ person.portrait }}" alt="{{ person.title }}" />
+  <h3 class='person_name'>{{ person.name }}</h3>
+  <h4 class='person_role'>{{ person.role }}</h4>
+  <div class="bio">
+    {{ person.content }}
+  </div>
+</div>

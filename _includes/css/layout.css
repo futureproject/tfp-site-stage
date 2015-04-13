@@ -1,0 +1,108 @@
+#site-header {
+  padding-top: 15px;
+  line-height: 1;
+}
+#site-header h1 { display: none; }
+
+#site-nav {
+  position: relative;
+  display: table;
+  border-collapse: collapse;
+}
+#site-nav a {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 20px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  border-bottom: 2px solid transparent;
+  position: relative;
+}
+#site-nav a:hover {
+  opacity: 1;
+}
+#site-nav a:hover:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 60px;
+  background: white;
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  margin-left: -30px;
+}
+#site-nav a.home { height: 60px; width: 60px; opacity: 1; }
+#site-nav a.home:hover:after { display: none; }
+#site-nav img {
+  width: 60px;
+  height: 60px;
+}
+
+#page-content {
+  padding-bottom: 30px;
+}
+
+#site-footer {
+  padding: 15px 0;
+}
+#site-footer a { display: block; }
+
+#site-footer input {
+  background: none;
+  border: 2px solid white;
+  border: 2px solid rgba(255,255,255,.5);
+  color: white;
+  margin-bottom: 5px;
+  line-height: 1;
+  padding: 10px 5px 5px;
+  display: block;
+  width: 100%;
+}
+#site-footer .fields {
+  clear: both;
+}
+#site-footer input[type=submit] {
+  font-size: 15px;
+  background: #84dbf5;
+  background: rgba(132,219,245, .5);
+}
+#site-footer .input-fname, #site-footer .input-lname {
+  float: left;
+  width: 50%;
+}
+#site-copyright {
+  position: relative;
+  height: 160px;
+  padding: 15px 0;
+  color: rgba(255,255,255,.5);
+}
+#site-copyright:before, #site-copyright:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 40%;
+  border-top: 1px solid;
+}
+#site-copyright:before { left: 0; }
+#site-copyright:after { right: 0; }
+#site-footer .input-fname { border-right: 0; }
+
+#site-copyright img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  margin-left: -60px;
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transition: -moz-transform 1s;
+  transition: transform 1s;
+}
+#site-copyright img:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transform: rotate(360deg);
+}

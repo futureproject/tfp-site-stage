@@ -1,0 +1,30 @@
+---
+title: Videos
+layout: default
+---
+<div class='video_bleed'>
+  <br><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+<div class='header_small'>
+  <h2>Videos</h2>
+</div>
+
+{% for video in site.categories.videos %}
+  <article class="video">
+    <div class="row sized">
+      <div class="g4">
+        <br><br>
+        <h3>{{ video.title }}</h3>
+        <br>
+        <p>{{ video.content }}</p>
+      </div>
+      <div class="g8">
+        <div class="video_player">
+          <iframe name="video_frame" src="//player.vimeo.com/video/{{ video.vimeo_id }}"></iframe>
+        </div>
+      </div>
+    </div>
+  </article>
+{% endfor %}
+

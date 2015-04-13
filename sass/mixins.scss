@@ -1,0 +1,27 @@
+$baseline: 1.4em;
+$gutter: $baseline;
+$border-box-sizing: true;
+$dark_blue: #121e29;
+$tfp_blue: #80dbf5;
+$tfp_blue_trans: rgba(121,209,235, .5);
+$tfp_blue_less_trans: rgba(121,209,235, .95);
+$slate_blue: #a5aeb2;
+$grey: #231f20;
+$font_body: 'AvenirLTStd', sans-serif;
+$font_headers: sans-serif;
+$max-width: em(920);
+
+@mixin body_copy {
+  font-weight: 400;
+  font-family: $font_body;
+}
+
+@mixin body_heading {
+  font-weight: 600;
+  font-family: $font_body;
+}
+
+@mixin heading {
+  font-weight: bold;
+  font-family: 'Bebas Neue', 'Impact';
+}

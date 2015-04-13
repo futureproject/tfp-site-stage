@@ -1,0 +1,14 @@
+{% if kind %}
+<ul class="{{ kind }}_list">
+{% for page in site.pages | sort: title %}
+  {% if page.kind == kind %}
+    <li class="{{ kind }}">
+      <a href="{{ page.url }}">
+        <img src="{{ page.thumbnail }}" alt="{{ page.title }}" />
+        <h3>{{ page.title }}</h3>
+      </a>
+    </li>
+  {% endif %}
+{% endfor %}
+{% assign kind = nil %}
+{% endif %}

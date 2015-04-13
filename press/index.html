@@ -1,0 +1,17 @@
+---
+title: Press
+layout: default
+---
+<div class='fbs_grid'>
+  {% for article in site.categories.press %}
+    <article>
+      <a href="{{ article.link }}">
+        <img src="{{ article.image }}" alt="{{ article.title }}" />
+        <blockquote>
+          <h3>{{ article.title }}</h3>
+          <time>{{ article.date | date: "%D" }}</time>
+        </blockquote>
+      </a>
+    </article>
+  {% endfor %}
+</div>

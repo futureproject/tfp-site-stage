@@ -1,0 +1,18 @@
+markdown: kramdown
+nav:
+  what:
+    label: 'What'
+    path: '/what/'
+  how:
+    label: 'How'
+    path: '/how/'
+  where:
+    label: 'Where'
+    path: '/where/'
+  who:
+    label: 'Who'
+    path: '/who/'
+  join:
+    label: 'Join'
+    path: '/jobs/'
+

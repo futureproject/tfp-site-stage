@@ -1,0 +1,137 @@
+html, body {
+  height: 100%;
+  min-width: 920px;
+}
+
+#primary_nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 100;
+  line-height: 1;
+  letter-spacing: 1px;
+  z-index: 1000000;
+  em {
+    display: block;
+    font-size: 1.4em;
+    font-weight: 600;
+  }
+  nav {
+    @include outer_container;
+  }
+  a {
+    padding: .5em 0;
+    position: relative;
+    @include span_columns(2);
+  }
+  a.home {
+    margin-top: -2px;
+  }
+}
+
+#primary_footer {
+  @include outer_container;
+  padding: $gutter;
+  position: relative;
+  nav {
+    margin-bottom: $gutter*2;
+  }
+  a {
+    display: block;
+  }
+  footer {
+    border-top: 1px solid $slate_blue;
+    padding-top: $gutter;
+    @include clearfix;
+    position: relative;
+    img {
+      display: block;
+      height: 14em;
+      width: 14em;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin: -7em 0 0 -7em;
+      border: 2em solid $dark-blue;
+      border-radius: 50%;
+    }
+  }
+}
+
+#map_canvas {
+  width: 100%;
+  height: 449px;
+}
+
+#ob_content {
+  box-sizing: content-box;
+}
+#ob_share {
+  display: none;
+}
+
+#waiting_list_form {
+  display: none;
+}
+
+#school_overlays {
+  display: none;
+}
+
+#itbegins-pjax-container {
+  @include transform(translate3d(0,0,0));
+}
+
+#alicia-feature {
+  position: relative;
+  font-size: 24px;
+  line-height: 1.4;
+  h2 { font-size: 1em; line-height: 1.1; letter-spacing: 1px; }
+  p { font-size: 1em; }
+  .caption {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 40%;
+    bottom: 0;
+  }
+  p { margin-top: 1em; }
+  img {
+    display: block;
+    float: left;
+    width: 3em;
+    height: 3em;
+    margin-left: 1em;
+  }
+  span {
+    display: block;
+    float: left;
+  }
+  a {
+    img:first-child { display: block; }
+    img:last-child { display: none; }
+  }
+  a:hover {
+    img:first-child { display: none; }
+    img:last-child { display: block; }
+  }
+
+  @include media(1024px) {
+    font-size: 28px;
+  }
+  @include media(1104px) {
+    font-size: 30px;
+  }
+  @include media(1204px) {
+    font-size: 34px;
+  }
+}
+#homepage-slideshow {
+  footer {
+    bottom: 1em;
+    left: auto;
+    right: 1em;
+  }
+}

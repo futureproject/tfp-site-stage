@@ -1,0 +1,13 @@
+<ul class="{{ cat }}_list" data-grid>
+{% for post in site.categories[cat] %}
+  <li class="{{ cat }} {{ post.department }}">
+    <a href="{{ post.url }}">
+      <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+      <h3>{{ post.title }}</h3>
+    </a>
+    <div class="info">
+      {{ post.content }}
+    </div>
+  </li>
+{% endfor %}
+{% assign cat = nil %}
