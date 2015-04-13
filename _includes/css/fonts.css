@@ -5,8 +5,7 @@
 	font-family: 'AvenirLTStd';src: url('/assets/fonts/29B21B_0_0.eot');src: url('/assets/fonts/29B21B_0_0.eot?#iefix') format('embedded-opentype'),url('/assets/fonts/29B21B_0_0.woff') format('woff'),url('/assets/fonts/29B21B_0_0.ttf') format('truetype');
 	font-weight: 400;
 }
- 
-  
+
 @font-face {
 	font-family: 'AvenirLTStd';src: url('/assets/fonts/29B21B_4_0.eot');src: url('/assets/fonts/29B21B_4_0.eot?#iefix') format('embedded-opentype'),url('/assets/fonts/29B21B_4_0.woff') format('woff'),url('/assets/fonts/29B21B_4_0.ttf') format('truetype');
 	font-weight: 600;
@@ -20,15 +19,5 @@
 		url('/assets/fonts/29B21B_1_0.ttf') format('truetype');
 	font-style: normal;
 	font-weight: 900;
-}
-
-@font-face {
-  font-family: 'Bebas Neue';
-  src: url('/assets/fonts/BebasNeue-webfont.eot');
-  src: url('/assets/fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/assets/fonts/BebasNeue-webfont.woff') format('woff'),
-       url('/assets/fonts/BebasNeue-webfont.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
 }
 
