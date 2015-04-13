@@ -1,1 +1,1 @@
-web: bundle exec puma -p $PORT
+web: ruby -run -e httpd ./_site -p $PORT
