@@ -6,12 +6,25 @@
 }
 
 .sized-narrow {
-  max-width: 750px;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.sized-extra-narrow {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 .headline { padding: 30px; }
-.pad { padding: 15px; }
+.pad { padding: 30px; }
 
+.swapping-icons {
+  position: relative;
+}
 .swapping-icons img {
   display: block;
   position: absolute;

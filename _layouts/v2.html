@@ -7,16 +7,18 @@
     <meta name="viewport" content="width=1024" />
     <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <link rel="stylesheet" href="/assets/v2/style.css" />
-    <link href="/assets/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link href="/assets/v2/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
   </head>
 <body class="{{ page.layout }} {{ page.css_class }}">
-  {% include v2/header.html %}
-
+  <div id='site-header'>
+    <h1>The Future Project</h1>
+  </div>
   <div id='page-content'>
     {{ content }}
   </div>
 
+  {% include v2/nav.html %}
   {% include v2/footer.html %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="/assets/v2/script.js"></script>

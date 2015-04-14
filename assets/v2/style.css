@@ -13,4 +13,5 @@ span3: 325px;
 {% include css/theme.css %}
 {% include css/animate.css %}
 {% include css/jobs.css %}
+{% include css/home.css %}
 

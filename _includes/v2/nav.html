@@ -1,14 +1,15 @@
-<nav id="site-nav" class='sized sized-narrow align-center'>
-  <a class="home" href="/">
-    <h1>The Future Project</h1>
-    <div class='swapping-icons'>
-      <img src="/assets/v2/button-cutout.png" alt="The Future Project" />
-      <img src="/assets/v2/button-cutout-tilt.png" alt="The Future Project" />
-    </div>
-  </a>
-  {% for n in site.nav %}
-    <a class="color-white {% if (page.url contains n[0] %}active {% endif %}" href="{{ n[1].path }}">
-      {{ n[1].label }}
+<div id="site-nav">
+  <nav class='sized-narrow align-center'>
+    <a class="home" href="/">
+      <div class='swapping-icons'>
+        <img src="/assets/v2/button-cutout.png" alt="The Future Project" />
+        <img src="/assets/v2/button-cutout-tilt.png" alt="The Future Project" />
+      </div>
     </a>
-  {% endfor %}
-</nav>
+    {% for n in site.nav %}
+      <a class="color-white {% if (page.url contains n[0] %}active {% endif %}" href="{{ n[1].path }}">
+        {{ n[1].label }}
+      </a>
+    {% endfor %}
+  </nav>
+</div>

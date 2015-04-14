@@ -47,9 +47,14 @@ input[type=submit]:active, button:active, .button:active {
   -ms-transform: translateY(1px);
   transform: translateY(1px);
 }
+.button-outline {
+  border: 2px solid;
+}
 
 .bg-tfp-blue { background-color: #84dbf5; color: white; }
+.bg-black-blue { background-color: #121e29; color: white; }
 .color-white { color: white; }
+.color-dark-blue { color: #1d456b; }
 
 .headline {
   font-weight: 600;

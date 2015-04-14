@@ -1,0 +1,23 @@
+#dd-recruitment-banner {
+  background-image: url(/assets/images/dd-homepage-l.png), url(/assets/images/dd-homepage-r.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: contain, contain;
+  height: 400px;
+  padding-top: 60px;
+}
+
+#dd-recruitment-banner .leader {
+  font-family: serif;
+  font-style: italic;
+  font-size: 30px;
+  font-family: "Brush Script MT", cursive;
+}
+#dd-recruitment-banner .loud {
+  text-transform: uppercase;
+  font-size: 75px;
+  font-weight: 600;
+  line-height: .8;
+  margin: 15px auto;
+}
+

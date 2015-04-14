@@ -1,17 +1,17 @@
 markdown: kramdown
 nav:
-  what:
-    label: 'What'
-    path: '/what/'
-  how:
-    label: 'How'
-    path: '/how/'
-  where:
-    label: 'Where'
-    path: '/where/'
-  who:
-    label: 'Who'
-    path: '/who/'
+  mission:
+    label: 'Mission'
+    path: '/mission/'
+  impact:
+    label: 'Impact'
+    path: '/impact/'
+  schools:
+    label: 'Schools'
+    path: '/schools/'
+  team:
+    label: 'Team'
+    path: '/team/'
   jobs:
     label: 'Join'
     path: '/jobs/'
