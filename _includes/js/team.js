@@ -4,7 +4,7 @@ $(document).pjax('.team .inline-nav-item', '#people', {
 }).on('pjax:click', function(event) {
   $(event.target).addClass('active').siblings().removeClass('active')
 }).on('pjax:send', function(){
-  $('#people').prepend("<div class='loading'></div>")
+  $('#people').html("<div class='loading'></div>")
 }).on('pjax:end', function(event) {
   $('.loading').remove()
 })
