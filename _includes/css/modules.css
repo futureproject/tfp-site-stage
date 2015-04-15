@@ -69,13 +69,19 @@
   overflow: auto;
   position: relative;
 }
+.span2 {
+  float: left;
+  width: 155px;
+  box-sizing: border-box;
+  margin: 0 15px 15px 0;
+}
 .span4 {
   float: left;
   width: 240px;
   box-sizing: border-box;
   margin: 0 15px 15px 0;
 }
-.span4:nth-of-type(4n) {
+.span4:nth-of-type(4n), .span2:nth-of-type(6n) {
   margin-right: 0;
 }
 
@@ -128,4 +134,9 @@
   background: -ms-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
   background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.banner {
+  height: 300px;
+  background-size: cover;
 }

@@ -1,0 +1,43 @@
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  border-bottom: none !important;
+  margin-top: -1px; }
+  .swipe img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+  .swipe .row {
+    margin-bottom: 0; }
+  .swipe p {
+    margin-top: 1em; }
+  .swipe .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden; }
+    .swipe .caption p {
+      font-size: .9em;
+      line-height: 1.2; }
+    .swipe .caption .sized {
+      padding: 0 2.8em;
+      overflow: auto; }
+    .swipe .caption h2 {
+      margin-top: 1.4em; }
+  .swipe .big_image {
+    width: 100%; }
+
+.swipe_header {
+  margin: 1.4em auto; }
+
+.swipe-wrap {
+  overflow: hidden;
+  position: relative; }
+
+.swipe-wrap > div {
+  float: left;
+  width: 100%;
+  position: relative;
+  padding-bottom: 2.8em; }

@@ -10,8 +10,7 @@ nav:
     path: '#'
   schools:
     label: 'Schools'
-    #path: '/schools/'
-    path: '#'
+    path: '/schools/'
   team:
     label: 'Team'
     path: '/team/'

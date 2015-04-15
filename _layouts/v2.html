@@ -10,22 +10,22 @@
     <link href="/assets/v2/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
   </head>
-<body class="{{ page.layout }} {{ page.title | downcase }}">
-  <div id='site-header'>
-    <h1>The Future Project</h1>
-  </div>
-  <div id='page-content'>
-    {% if page.headline %}
-    <header id="page-header-{{ page.title | downcase }}" class='headline align-center bg-tfp-blue'>
-      <div class='sized'>{{ page.headline }}</div>
-    </header>
-    {% endif %}
-    {{ content }}
-  </div>
+  <body class="{{ page.layout }} {{ page.title | downcase }} {{ page.css_classes }}">
+    <div id='site-header'>
+      <h1>The Future Project</h1>
+    </div>
+    <div id='page-content'>
+      {% if page.headline %}
+      <header id="page-header-{{ page.title | downcase }}" class='headline align-center bg-tfp-blue'>
+        <div class='sized'>{{ page.headline }}</div>
+      </header>
+      {% endif %}
+      {{ content }}
+    </div>
 
-  {% include v2/nav.html %}
-  {% include v2/footer.html %}
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="/assets/v2/script.js"></script>
-</body>
+    {% include v2/nav.html %}
+    {% include v2/footer.html %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/assets/v2/script.js"></script>
+  </body>
 </html>

@@ -1,0 +1,96 @@
+.cities-nav .swapping-icons {
+  height: 155px;
+}
+
+.flip-video-caption, article.no-border, article.photo-stack {
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  transition: opacity 1s; }
+
+.video-playing .flip-video-caption, .video-playing article.no-border, .video-playing article.photo-stack { }
+
+.photo-stack {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: 330px; }
+  .photo-stack:before, .photo-stack:after {
+    content: " ";
+    display: table; }
+  .photo-stack:after {
+    clear: both; }
+
+.photo-stack-caption {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .photo-stack-caption:last-child {
+    margin-right: 0; }
+  .photo-stack-caption p {
+    margin-top: 1em; }
+
+.photo-stack-photos {
+  z-index: 1000;
+  position: relative;
+  height: 0;
+  padding-bottom: 28.125%;
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  transform: rotate(1deg); }
+  .photo-stack-photos:last-child {
+    margin-right: 0; }
+  .photo-stack-photos img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 480px;
+    height: 285px;
+    border: 1em solid #f1f0ec;
+    cursor: move;
+    background: #f1f0ec;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1); }
+    -webkit-backface-visibility: hidden;
+  .photo-stack-photos img:first-child {
+    z-index: 10; }
+  .photo-stack-photos img:nth-child(2) {
+    z-index: 9;
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg); }
+  .photo-stack-photos img:nth-child(3) {
+    z-index: 8;
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg); }
+  .photo-stack-photos img:nth-child(4) {
+    z-index: 7;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+  .photo-stack-photos img:nth-child(5) {
+    z-index: 6;
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    transform: rotate(7deg); }
+  .photo-stack-photos img:nth-child(6) {
+    z-index: 5;
+    -webkit-transform: rotate(9deg);
+    -moz-transform: rotate(9deg);
+    -ms-transform: rotate(9deg);
+    -o-transform: rotate(9deg);
+    transform: rotate(9deg); }
+  opacity: .1; }
