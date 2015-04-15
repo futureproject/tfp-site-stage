@@ -1,0 +1,34 @@
+.person {
+  height: 240px;
+}
+.person img, .person .swapping-icons {
+  width: 240px;
+  height: 172px;
+  margin-bottom: 5px;
+}
+.person-name {
+  font-weight: 600;
+}
+.team .grid-info-box {
+  background: #84dbf5;
+  padding: 5px 30px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.person.active:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(121, 209, 235, 0);
+  border-bottom-color: #84dbf5;
+  margin-top: -15px;
+  border-width: 15px;
+  margin-left: -15px;
+  z-index: 100;
+}

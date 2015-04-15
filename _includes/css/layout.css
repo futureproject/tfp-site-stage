@@ -1,8 +1,5 @@
 #site-header { display: none; }
 #page-content > *:first-child {
-  padding-top: 60px;
-}
-#page-content > .headline:first-child {
   padding-top: 90px;
 }
 #site-nav {
@@ -19,25 +16,9 @@
   display: table-cell;
   vertical-align: middle;
   text-transform: uppercase;
-  opacity: 0.8;
   position: relative;
 }
-#site-nav a:hover, #site-nav a.active {
-  opacity: 1;
-}
-#site-nav a.active:after {
-  content: '';
-  display: block;
-  height: 5px;
-  width: 70px;
-  background: white;
-  position: absolute;
-  left: 50%;
-  top: 45px;
-  margin-left: -35px;
-}
 #site-nav a.home {
-  opacity: 1;
   height: 60px;
   text-align: center;
 }

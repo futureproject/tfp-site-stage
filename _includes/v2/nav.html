@@ -7,7 +7,7 @@
       </div>
     </a>
     {% for n in site.nav %}
-      <a class="color-white {% if (page.url contains n[0] %}active {% endif %}" href="{{ n[1].path }}">
+      <a class="{% if (page.url contains n[0] %}active {% endif %}" href="{{ n[1].path }}">
         {{ n[1].label }}
       </a>
     {% endfor %}

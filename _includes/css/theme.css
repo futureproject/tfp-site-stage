@@ -14,6 +14,21 @@ html {
 #page-content {
   background: white;
 }
+#page-content:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#site-nav {
+  background: rgba(132,219,245,.75);
+}
+#site-nav a  {
+  color: rgb(200,245,255);
+}
+#site-nav a:hover, #site-nav a.active {
+  color: white;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
@@ -84,3 +99,9 @@ input[type=submit]:active, button:active, .button:active {
   opacity: 1;
 }
 
+
+.inline-nav-item {
+  text-transform: uppercase;
+  opacity: .5;
+}
+.inline-nav-item.active, .inline-nav-item:hover { opacity: 1; }

@@ -1,0 +1,16 @@
+<div class='grid'>
+{% for person in site.categories.team reversed %}
+  {% if person.team contains team %}
+  <figure class="span4 person {{ person.team }}{% if person.content != nil %} expandable{% endif %}">
+      <div class='swapping-icons'>
+        <img src="images/team_{{ person.portrait }}_1.jpg" alt="{{ person.title }}" />
+        <img src="images/team_{{ person.portrait }}_2.jpg" alt="{{ person.title }}" />
+      </div>
+      <div class='person-name'>{{ person.name }}</div>
+      <div class='person-role'>{{ person.role }}</div>
+      <div class="person-bio expandable-content">{{ person.content }}</div>
+    </figure>
+  {% endif %}
+{% endfor %}
+{% assign team = nil %}
+</div>

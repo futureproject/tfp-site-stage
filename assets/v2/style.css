@@ -2,7 +2,7 @@
 ---
 
 /*
-span-4: 255px;
+span4: 255px;
 span3: 325px;
 *
 {% include css/fonts.css %}
@@ -11,7 +11,8 @@ span3: 325px;
 {% include css/base.css %}
 {% include css/modules.css %}
 {% include css/theme.css %}
-{% include css/animate.css %}
 {% include css/jobs.css %}
+{% include css/team.css %}
 {% include css/home.css %}
+{% include css/loading.css %}
 

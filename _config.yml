@@ -2,13 +2,16 @@ markdown: kramdown
 nav:
   mission:
     label: 'Mission'
-    path: '/mission/'
+    #path: '/mission/'
+    path: '#'
   impact:
     label: 'Impact'
-    path: '/impact/'
+    #path: '/impact/'
+    path: '#'
   schools:
     label: 'Schools'
-    path: '/schools/'
+    #path: '/schools/'
+    path: '#'
   team:
     label: 'Team'
     path: '/team/'
@@ -17,3 +20,11 @@ nav:
     path: '/jobs/'
 gems: ['kramdown']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+
+defaults:
+  -
+    scope:
+      path: "team"
+    values:
+      title: "Team"
+      headline: "We‘re a team that believes<br>anything is possible."
