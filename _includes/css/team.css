@@ -1,8 +1,8 @@
 #page-header-team {
-  background-image: url(/assets/images/jobs-header.jpg);
+  background-image: url(/assets/images/team-header.jpg);
   background-color: #080f1f;
   background-size: cover;
-  background-position: left top;
+  background-position: center -40px;
 }
 
 .person {
