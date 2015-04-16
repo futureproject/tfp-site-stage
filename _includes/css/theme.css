@@ -25,7 +25,8 @@ body.no-page-header { border-top: 60px solid #84dbf5; }
 }
 
 #site-nav a  {
-  color: rgb(200,245,255);
+  color: white;
+  color: rgba(255,255,255,0.7);
 }
 #site-nav a:hover, #site-nav a.active {
   color: white;

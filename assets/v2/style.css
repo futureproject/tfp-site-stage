@@ -16,8 +16,9 @@ span3: 325px;
 
 {% include css/home.css %}
 {% include css/mission.css %}
-{% include css/jobs.css %}
-{% include css/team.css %}
+{% include css/impact.css %}
 {% include css/schools.css %}
+{% include css/team.css %}
+{% include css/jobs.css %}
 {% include css/videos.css %}
 

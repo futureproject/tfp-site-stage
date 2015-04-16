@@ -1,3 +1,9 @@
+#page-header-mission {
+  background-image: url(/assets/images/mission-header.jpg);
+  background-color: #080f1f;
+  background-size: contain;
+  background-position: right top;
+}
 #how-it-works-teaser:after {
   content: '';
   display: block;

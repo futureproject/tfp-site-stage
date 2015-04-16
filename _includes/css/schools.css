@@ -1,3 +1,10 @@
+#page-header-schools {
+  background-image: url(/assets/images/schools-header.jpg);
+  background-position: right top;
+  background-color: #1a3f49;
+  background-size: cover;
+}
+
 .cities-nav .swapping-icons {
   height: 155px;
 }

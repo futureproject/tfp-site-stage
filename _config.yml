@@ -21,12 +21,6 @@ exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefil
 defaults:
   -
     scope:
-      path: ''
-    values:
-      header_background_size: 'cover'
-      header_background_position:  'right top'
-  -
-    scope:
       path: "team"
     values:
       title: "Team"

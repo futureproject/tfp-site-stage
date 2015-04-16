@@ -9,19 +9,18 @@
 
 .video-list iframe {
   width: 100%;
-  height: 225px;
+  height: 300px;
   border: none;
 }
-.video-list .video-player, .video-list .video-caption {
-  float: right;
-}
 .video-list .video-player {
-  width: 395px;
-  margin-left: 30px;
+  width: calc(50% - 7.5px);
+  float: right;
+  margin-left: 15px;
 }
 
 .video-list .video-caption {
-  width: 325px;
-  font-size:15px;
+  float: left;
+  margin-right: 15px;
+  width: calc(50% - 30px);
 }
 
