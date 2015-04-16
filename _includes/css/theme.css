@@ -34,7 +34,7 @@ body.no-headline { border-top: 60px solid #84dbf5; }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 a {
@@ -75,7 +75,7 @@ input[type=submit]:active, button:active, .button:active {
 .color-dark-blue { color: #1d456b; }
 
 .headline {
-  font-weight: 600;
+  font-weight: 900;
   font-size: 3em;
   line-height: 1;
 }

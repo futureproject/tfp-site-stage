@@ -14,9 +14,10 @@ span3: 325px;
 {% include css/modules.css %}
 {% include css/theme.css %}
 
+{% include css/home.css %}
+{% include css/mission.css %}
 {% include css/jobs.css %}
 {% include css/team.css %}
-{% include css/home.css %}
 {% include css/schools.css %}
 {% include css/videos.css %}
 

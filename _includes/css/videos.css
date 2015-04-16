@@ -1,28 +1,27 @@
+.video-list .video {
+  margin: 30px auto;
+}
 .video-list .video:after {
   content: '';
   clear: both;
   display: table;
 }
 
-.video-list .video-player {
-  width: 255px;
-}
-
 .video-list iframe {
   width: 100%;
-  height: 285px;
+  height: 225px;
   border: none;
 }
 .video-list .video-player, .video-list .video-caption {
   float: right;
 }
 .video-list .video-player {
-  width: 495px;
+  width: 395px;
   margin-left: 30px;
-  margin-right: 90px;
 }
 
 .video-list .video-caption {
   width: 325px;
+  font-size:15px;
 }
 

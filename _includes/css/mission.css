@@ -1,0 +1,19 @@
+#how-it-works-teaser:after {
+  content: '';
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  border-bottom: 10px solid #84dbf5;
+}
+#how-it-works-teaser img:first-of-type {
+  left: 45px;
+}
+#join-the-mission img:first-of-type {
+  left: 60px;
+}
+#join-the-mission img:last-of-type {
+  right: 90px;
+}
