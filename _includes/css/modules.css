@@ -19,12 +19,8 @@
   box-sizing: border-box;
 }
 
-.headline {
-  padding: 30px;
-}
-
 .page-header {
-  padding: 120px 0 90px;
+  padding: 90px 0 60px;
   background-position: right top;
   background-size: cover;
 }
@@ -146,10 +142,6 @@
 }
 .slideshow > * {
   height: 100%;
-}
-.banner {
-  background-size: cover;
-  text-align: center;
 }
 
 .article-with-photo-l {

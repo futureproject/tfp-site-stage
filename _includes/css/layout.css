@@ -2,10 +2,6 @@
 #page-content {
   min-height: 60px;
 }
-#page-content > .banner:first-child {
-  padding-top: 120px;
-  padding-bottom: 90px;
-}
 #site-nav {
   position: absolute;
   top: 0;

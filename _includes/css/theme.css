@@ -142,7 +142,7 @@ input[type=submit]:active, button:active, .button:active {
   display: block;
   height: 0;
   width: 30%;
-  margin: 30px auto;
+  margin: 30px auto 0;
   border-top: 1px solid;
 }
 

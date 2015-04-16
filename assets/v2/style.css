@@ -5,6 +5,7 @@
 span4: 255px;
 span3: 325px;
 *
+{% include css/loading.css %}
 {% include css/fonts.css %}
 {% include css/normalize.css %}
 {% include css/layout.css %}
@@ -17,5 +18,5 @@ span3: 325px;
 {% include css/team.css %}
 {% include css/home.css %}
 {% include css/schools.css %}
-{% include css/loading.css %}
+{% include css/videos.css %}
 

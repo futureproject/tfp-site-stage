@@ -16,8 +16,8 @@
     </div>
     <div id='page-content'>
       {% if page.headline %}
-      <header id="page-header-{{ page.title | downcase }}" class='banner headline align-center bg-tfp-blue'{% if page.headline_image %} style='background-image:url({{ page.headline_image }})'{% endif %}>
-        <div class='sized'>{{ page.headline }}</div>
+      <header class='page-header align-center bg-tfp-blue'{% if page.headline_image %} style='background-image:url({{ page.headline_image }})'{% endif %}>
+        <div class='sized headline'>{{ page.headline }}</div>
       </header>
       {% endif %}
       {{ content }}
