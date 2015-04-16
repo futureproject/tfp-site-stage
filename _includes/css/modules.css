@@ -22,7 +22,8 @@
 .page-header {
   padding: 120px 0 90px;
   background-position: right top;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .pad { padding: 30px; }
