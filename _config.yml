@@ -2,8 +2,7 @@ markdown: kramdown
 nav:
   mission:
     label: 'Mission'
-    #path: '/mission/'
-    path: '#'
+    path: '/mission/'
   impact:
     label: 'Impact'
     #path: '/impact/'

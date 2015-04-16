@@ -12,12 +12,8 @@
 }
 
 @font-face {
-	font-family: 'AvenirLTStd';
-	src: url('/assets/fonts/29B21B_1_0.eot');
-	src: url('/assets/fonts/29B21B_1_0.eot?#iefix') format('embedded-opentype'),
-		url('/assets/fonts/29B21B_1_0.woff') format('woff'),
-		url('/assets/fonts/29B21B_1_0.ttf') format('truetype');
-	font-style: normal;
-	font-weight: 900;
+    font-family: 'klinic';
+    src: url('/assets/fonts/klinicslabmediumit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
 }
-

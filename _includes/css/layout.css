@@ -1,6 +1,10 @@
 #site-header { display: none; }
-#page-content > *:first-child {
-  padding-top: 90px;
+#page-content {
+  min-height: 60px;
+}
+#page-content > .banner:first-child {
+  padding-top: 120px;
+  padding-bottom: 90px;
 }
 #site-nav {
   position: absolute;
@@ -35,7 +39,6 @@
 
 #site-footer {
   padding: 30px 0;
-  border-top: 1px solid #111119;
 }
 #site-footer a { display: block; }
 
