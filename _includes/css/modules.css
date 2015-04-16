@@ -79,13 +79,19 @@
   box-sizing: border-box;
   margin: 0 15px 15px 0;
 }
+.span3 {
+  float: left;
+  width: 325px;
+  box-sizing: border-box;
+  margin: 0 15px 15px 0;
+}
 .span4 {
   float: left;
   width: 240px;
   box-sizing: border-box;
   margin: 0 15px 15px 0;
 }
-.span4:nth-of-type(4n), .span2:nth-of-type(6n) {
+.span4:nth-of-type(4n), .span3:nth-of-type(3n), .span2:nth-of-type(6n) {
   margin-right: 0;
 }
 
@@ -195,3 +201,17 @@
 .article-short {
   min-height: 300px;
 }
+
+.cols-2 {
+  font-size: 15px;
+  text-align: justify;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 60px;
+  -moz-column-count: 2;
+  -moz-column-gap: 60px;
+  -ms-column-count: 2;
+  -ms-column-gap: 60px;
+  column-count: 2;
+  column-gap: 60px;
+}
+.cols-2 p { margin: 0 0 1em; }

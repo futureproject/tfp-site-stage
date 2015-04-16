@@ -2,6 +2,7 @@
  * tfp-blue: #84dbf5 rgb(132, 219, 245);
  * dark-blue: #1d456b;
  * dark-grey: #231f20;
+ * light-grey: #b5b5ba;
  * black-blue: #121e29;
 */
 
@@ -106,9 +107,9 @@ input[type=submit]:active, button:active, .button:active {
 
 .inline-nav-item {
   text-transform: uppercase;
-  opacity: .5;
+  color: #b5b5ba;
 }
-.inline-nav-item.active, .inline-nav-item:hover { opacity: 1; }
+.inline-nav-item.active, .inline-nav-item:hover { color: #84dbf5; }
 
 .classy-header {
   text-transform: uppercase;

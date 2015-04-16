@@ -9,7 +9,7 @@ $(document).on('click', '.grid .expandable', function(event) {
     $t.removeClass('active')
     return
   }
-  selector = '.expandable:nth-of-type(4n)'
+  selector = $t.hasClass('span3') ? '.expandable:nth-of-type(3n)' : '.expandable:nth-of-type(4n)'
   $t.addClass('active').siblings().removeClass('active')
   if ($t.is(selector) || $t.nextAll('.expandable').length == 0) {
     $target = $t

@@ -6,15 +6,23 @@
 }
 
 .person {
-  height: 240px;
+  height: 310px;
+  font-size: 20px;
+  text-align: center;
 }
 .person img, .person .swapping-icons {
-  width: 240px;
-  height: 172px;
+  width: 325px;
+  height: 232px;
   margin-bottom: 5px;
 }
 .person-name {
   font-weight: 600;
+}
+.person-role {
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #b5b5ba;
 }
 .team .grid-info-box {
   background: #84dbf5;

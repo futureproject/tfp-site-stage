@@ -2,7 +2,7 @@
   background-image: url(/assets/images/jobs-header.jpg);
   background-color: #080f1f;
   background-size: cover;
-  background-position: left top;
+  background-position: center center;
 }
 .job-listing img { width: 240px; height: 218px; }
 .job-listing:hover, .job-listing.active { background: #84dbf3; }
