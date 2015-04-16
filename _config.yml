@@ -5,8 +5,7 @@ nav:
     path: '/mission/'
   impact:
     label: 'Impact'
-    #path: '/impact/'
-    path: '#'
+    path: '/impact/'
   schools:
     label: 'Schools'
     path: '/schools/'
@@ -25,4 +24,4 @@ defaults:
       path: "team"
     values:
       title: "Team"
-      headline: "We‘re a team that believes<br>anything is possible."
+      header_text: "We‘re a team that believes<br>anything is possible."

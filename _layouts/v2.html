@@ -10,16 +10,12 @@
     <link href="/assets/v2/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
   </head>
-  <body class="{{ page.layout }} {{ page.title | downcase }} {{ page.css_classes }}{% if page.headline == null %} no-headline{% endif %}">
+  <body class="{{ page.layout }} {{ page.title | downcase }} {{ page.css_classes }}{% if page.header_text == null %} no-page-header{% endif %}">
     <div id='site-header'>
       <h1>The Future Project</h1>
     </div>
     <div id='page-content'>
-      {% if page.headline %}
-      <header class='page-header align-center bg-tfp-blue'{% if page.headline_image %} style='background-image:url({{ page.headline_image }})'{% endif %}>
-        <div class='sized headline'>{{ page.headline }}</div>
-      </header>
-      {% endif %}
+      {% if page.header_text %}{% include v2/page_header.html %}{% endif %}
       {{ content }}
     </div>
 
