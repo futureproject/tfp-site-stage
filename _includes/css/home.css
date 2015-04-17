@@ -14,14 +14,14 @@
 }
 
 .fbs-video-player {
-  height: 300px;
+  height: 450px;
   width: 100%;
   background-image: url(/assets/images/homepage-video-blur.jpg);
   background-size: cover;
   background-position: center center;
 }
 .fbs-video-player img {
-  height: 300px;
+  height: 450px;
   width: auto;
   margin: 0;
 }
