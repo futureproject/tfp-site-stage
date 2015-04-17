@@ -6,3 +6,4 @@
 {% include js/expandable.js %}
 {% include js/team.js %}
 {% include js/itbegins.js %}
+{% include js/home.js %}

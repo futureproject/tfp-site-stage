@@ -19,15 +19,15 @@ layout: v2
   <img src="/assets/images/student_hero.jpg" alt="Join us in inspiring young people to live with passion and purpose.">
 </article>
 
-<div class='fbs-video-player'>
-  <img src="/homepage-videos/images/dejhanay_face.png">
+<div id='fbs-video-ajax-target'>
 </div>
+
 <div class='student-videos-container'>
   <ul class='student-videos'>
   {% for video in site.categories.homepage-videos %}
-    <li class='student-video'>
+    <li class='student-video fbs-video-container-{{ video.title | downcase | replace:' ', '-' }}'>
       <a title="{{ video.title }}" href="{{ video.url }}">
-        <img src="{{ video.thumbnail }}" alt="{{ video.title }}" >
+        <img src="/homepage-videos/images/{{ video.thumbnail }}" alt="{{ video.title }}" >
       </a>
     </li>
   {% endfor %}
