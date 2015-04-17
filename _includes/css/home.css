@@ -16,7 +16,7 @@
 .fbs-video-player {
   height: 450px;
   width: 100%;
-  background-image: url(/assets/images/homepage-video-blur.jpg);
+  background-image: url(/homepage-videos/images/dejhanay_background.jpg);
   background-size: cover;
   background-position: center center;
 }
