@@ -50,7 +50,7 @@
 .quote-source {
   font-size: 20px;
   margin-bottom: 15px;
-  opacity: .8;
+  color: rgba(255,255,255,.7);
 }
 .fbs-video-quote-container .button {
   font-size: 20px;
