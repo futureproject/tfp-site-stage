@@ -7,12 +7,14 @@
 .job-listing img { width: 240px; height: 218px; }
 .job-listing:hover, .job-listing.active { background: #84dbf3; }
 .job-listing .job-title {
-  margin-top: 220px;
+  margin-top: 210px;
   text-align: center;
 }
 .job-title {
   font-size: 20px;
+  padding: 0 15px;
   font-weight: 600;
+  line-height: 1;
 }
 
 .job-listing {
