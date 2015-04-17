@@ -222,3 +222,24 @@
 .inline-box p {
   line-height: 20px;
 }
+
+.student-videos-container {
+  overflow: auto;
+  width: 100%;
+}
+.student-videos {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+  line-height: 1;
+  word-spacing: 0;
+  text-align: center;
+  border-top: 3px solid #11111a;
+  background: #11111a;
+}
+.student-videos .student-video {
+  display: inline-block;
+  width: 300px;
+}

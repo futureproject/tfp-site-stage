@@ -19,8 +19,16 @@ layout: v2
   <img src="/assets/images/student_hero.jpg" alt="Join us in inspiring young people to live with passion and purpose.">
 </article>
 
-<div class='fbs-video-player'>
-  <img src="/assets/images/homepage-video-face.png">
+<div class='student-videos-container'>
+  <ul class='student-videos'>
+  {% for video in site.categories.homepage-videos %}
+    <li class='student-video'>
+      <a href="//player.vimeo.com/video/{{ video.vimeo_id}}?autoplay=1">
+        <img src="{{ video.thumbnail }}" alt="{{ video.title }}" >
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
 </div>
 
 </div>
