@@ -12,3 +12,16 @@
 #dd-recruitment-banner .button {
   -webkit-transform: rotate(-2.5deg);
 }
+
+.fbs-video-player {
+  height: 300px;
+  width: 100%;
+  background-image: url(/assets/images/homepage-video-blur.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.fbs-video-player img {
+  height: 300px;
+  width: auto;
+  margin: 0;
+}
