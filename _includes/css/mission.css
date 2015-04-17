@@ -1,7 +1,7 @@
 #page-header-mission {
   background-image: url(/assets/images/mission-header.jpg);
   background-color: #080f1f;
-  background-size: contain;
+  background-size: cover;
   background-position: right top;
 }
 #how-it-works-teaser:after {

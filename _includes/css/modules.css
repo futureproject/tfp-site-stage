@@ -20,7 +20,7 @@
 }
 
 .page-header {
-  padding: 120px 0 90px;
+  padding: 150px 0 125px;
   background-position: right top;
   background-size: contain;
   background-repeat: no-repeat;
@@ -145,7 +145,7 @@
 }
 
 .slideshow {
-  height: 360px;
+  height: 420px;
 }
 .slideshow > * {
   height: 100%;

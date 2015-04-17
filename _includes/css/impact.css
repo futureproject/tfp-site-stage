@@ -1,6 +1,6 @@
 #page-header-impact {
   background-image: url(/assets/images/impact-header.jpg);
   background-color: #000;
-  background-size: contain;
+  background-size: cover;
   background-position: left top;
 }

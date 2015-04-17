@@ -1,6 +1,6 @@
 #site-header { display: none; }
 #page-content {
-  min-height: 60px;
+  min-height: 75px;
 }
 #site-nav {
   position: absolute;
@@ -19,17 +19,17 @@
   position: relative;
 }
 #site-nav a.home {
-  height: 60px;
+  height: 75px;
   text-align: center;
 }
 #site-nav a.home:hover:after { display: none; }
 #site-nav img {
-  width: 60px;
-  height: 60px;
+  width: 75px;
+  height: 75px;
 }
 #site-nav a.home .swapping-icons {
-  height: 60px;
-  width: 60px;
+  height: 75px;
+  width: 75px;
   margin: 0 auto;
 }
 
