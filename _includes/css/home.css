@@ -39,13 +39,13 @@
   top: 30px;
   bottom: 30px;
   width: 510px;
-  padding: 30px;
-  background: rgba(0,0,0,.5);
+  padding: 15px 30px;
   color: white;
 }
 .quote-content {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 900;
+  line-height: 1.2;
 }
 .quote-source {
   font-size: 20px;
