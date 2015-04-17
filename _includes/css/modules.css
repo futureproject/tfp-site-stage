@@ -202,16 +202,23 @@
   min-height: 300px;
 }
 
-.cols-2 {
-  font-size: 15px;
-  text-align: justify;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 60px;
-  -moz-column-count: 2;
-  -moz-column-gap: 60px;
-  -ms-column-count: 2;
-  -ms-column-gap: 60px;
-  column-count: 2;
-  column-gap: 60px;
+.inline-boxes {
+  text-align: center;
 }
-.cols-2 p { margin: 0 0 1em; }
+.inline-box {
+  font-size: 15px;
+  width: 315px;
+  line-height: 1;
+  margin-bottom: 15px;
+  padding: 0 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.inline-box img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+.inline-box p {
+  line-height: 20px;
+}
