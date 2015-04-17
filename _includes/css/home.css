@@ -148,6 +148,14 @@ background: -ms-linear-gradient(-45deg,  rgba(255,190,6,1) 0%,rgba(254,160,58,1)
 background: linear-gradient(135deg,  rgba(255,190,6,1) 0%,rgba(254,160,58,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbe06', endColorstr='#fea03a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+.fbs-video-container-front-back-pop .fbs-video-poster {
+  background-position: left center;
+  left: 0;
+}
+.fbs-video-container-gotbeauty .fbs-video-poster {
+  background-position: left center;
+  left: 0;
+}
 
 .fbs-video-container-gotbeauty {
 background: rgb(27,68,186); /* Old browsers */
