@@ -23,7 +23,7 @@ layout: v2
   <ul class='student-videos'>
   {% for video in site.categories.homepage-videos %}
     <li class='student-video'>
-      <a href="//player.vimeo.com/video/{{ video.vimeo_id}}?autoplay=1">
+      <a title="{{ video.title }}" href="//player.vimeo.com/video/{{ video.vimeo_id}}?autoplay=1">
         <img src="{{ video.thumbnail }}" alt="{{ video.title }}" >
       </a>
     </li>

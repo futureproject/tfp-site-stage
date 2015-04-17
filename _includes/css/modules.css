@@ -242,4 +242,9 @@
 .student-videos .student-video {
   display: inline-block;
   width: 300px;
+  opacity: .8;
+  -webkit-transition: opacity .3s;
+}
+.student-video:hover {
+  opacity: 1;
 }
