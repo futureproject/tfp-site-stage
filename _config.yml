@@ -21,6 +21,11 @@ exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefil
 defaults:
   -
     scope:
+      path: "homepage-videos"
+    values:
+      layout: "homepage-video"
+  -
+    scope:
       path: "team"
     values:
       title: "Team"
