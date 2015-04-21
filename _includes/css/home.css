@@ -180,6 +180,9 @@ background: linear-gradient(135deg,  rgba(27,68,186,1) 0%,rgba(72,2,183,1) 100%)
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b44ba', endColorstr='#4802b7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+#press-quotes {
+  position: relative;
+}
 #press-quotes-viewer {
   height: 300px;
   width: 750px;
@@ -225,4 +228,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b44ba', end
 }
 #press-quotes-nav .active img {
   opacity: 1;
+}
+#press-quotes:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  height: 100%;
+  width: 495px;
+  margin-left: -300px;
+  pointer-events: none;
+  background: #fff url(/assets/images/homepage-quotes-bg.jpg) no-repeat left top;
+  background-size: contain;
+  mix-blend-mode: multiply;
+  z-index: 0;
+
 }
