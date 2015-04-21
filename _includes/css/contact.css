@@ -1,23 +1,17 @@
 #contact-box {
-  background-size: cover;
-  background-position: center center;
-  background-image: url(/assets/images/contact-bg.jpg);
-  background-color: #84dbf5;
-  color: white;
-  position: relative;
-  padding: 180px 0 240px;
+  padding: 90px 0 120px;
+}
+
+#contact-box img {
+  width: 100%;
+  height: auto;
 }
 
 #contact-box .headline { font-size: 45px; }
 #contact-box article {
   padding: 30px 30px 15px;
-  border: 3px solid white;
+  border: 3px solid;
   width: 420px;
   margin: 0 auto;
-  background: rgba(0,0,0,.4);
 }
-#contact-box * { color: white; }
 
-body.contact {
-  border-top: none;
-}

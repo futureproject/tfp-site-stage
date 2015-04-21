@@ -7,6 +7,7 @@
 
 #dd-recruitment-banner img {
   height: 305px;
+  width: auto;
   margin: 0 auto 30px;
 }
 #dd-recruitment-banner .button {
