@@ -21,4 +21,5 @@ span3: 325px;
 {% include css/team.css %}
 {% include css/jobs.css %}
 {% include css/videos.css %}
+{% include css/contact.css %}
 

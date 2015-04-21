@@ -16,8 +16,6 @@ body.no-page-header { border-top: 75px solid #84dbf5; }
 
 #page-content {
   background: white;
-  overflow-x: hidden;
-  overflow-y: auto;
 }
 #page-content:after {
   content: '';
