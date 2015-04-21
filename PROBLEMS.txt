@@ -1,1 +1,3 @@
 Cutouts on the Contact page look ragged
+Homepage posters are ragged too, and gradients are broken
+Every student on the Home and Impact pages is black

@@ -66,7 +66,7 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.student-videos-container {
+#student-videos-container {
   position: relative;
 }
 .student-videos-container:after {
@@ -104,7 +104,7 @@
   display: inline-block;
   width: 300px;
   opacity: .5;
-  -webkit-transition: opacity .3s;
+  -webkit-transition: opacity .5s;
 }
 .student-video a {
   display: block;
@@ -175,4 +175,51 @@ background: -o-linear-gradient(-45deg,  rgba(27,68,186,1) 0%,rgba(72,2,183,1) 10
 background: -ms-linear-gradient(-45deg,  rgba(27,68,186,1) 0%,rgba(72,2,183,1) 100%); /* IE10+ */
 background: linear-gradient(135deg,  rgba(27,68,186,1) 0%,rgba(72,2,183,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b44ba', endColorstr='#4802b7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#press-quotes-viewer {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+.press-quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 300px;
+  width: 750px;
+  margin: -150px 0 0 -375px;
+  background: white;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -ms-transition: opacity .5s;
+  transition: opacity .5s;
+}
+.press-quote.active { opacity: 1; }
+
+.press-quote-content {
+  font-size: 30px;
+  line-height: 1.15;
+  margin-bottom: 15px;
+  margin-top: 90px;
+}
+#press-quotes-nav {
+  background: #f3f3f3;
+  display: table;
+  margin-bottom: 30px;
+}
+
+#press-quotes-nav > div {
+  display: table-cell;
+}
+#press-quotes-nav img {
+  opacity: .25;
+  height: 90px;
+  width: auto;
+  cursor: pointer;
+}
+#press-quotes-nav .active img {
+  opacity: 1;
 }

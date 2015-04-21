@@ -2,6 +2,7 @@
 ---
 {% include js/lib/modernizr.js %}
 {% include js/lib/swipe.js %}
+{% include js/lib/jquery.fadingcarousel.js %}
 {% include js/lib/jquery.pjax.js %}
 {% include js/expandable.js %}
 {% include js/team.js %}

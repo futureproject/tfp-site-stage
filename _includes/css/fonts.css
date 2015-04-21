@@ -2,28 +2,28 @@
 /* @import must be at top of file, otherwise CSS will not work */
 
 @font-face {
-	font-family: 'AvenirLTStd';src: url('/assets/fonts/29B21B_0_0.eot');src: url('/assets/fonts/29B21B_0_0.eot?#iefix') format('embedded-opentype'),url('/assets/fonts/29B21B_0_0.woff') format('woff'),url('/assets/fonts/29B21B_0_0.ttf') format('truetype');
+	font-family: 'AvenirLTStd';src: url('/assets/v2/fonts/29B21B_0_0.eot');src: url('/assets/v2/fonts/29B21B_0_0.eot?#iefix') format('embedded-opentype'),url('/assets/v2/fonts/29B21B_0_0.woff') format('woff'),url('/assets/v2/fonts/29B21B_0_0.ttf') format('truetype');
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'AvenirLTStd';src: url('/assets/fonts/29B21B_4_0.eot');src: url('/assets/fonts/29B21B_4_0.eot?#iefix') format('embedded-opentype'),url('/assets/fonts/29B21B_4_0.woff') format('woff'),url('/assets/fonts/29B21B_4_0.ttf') format('truetype');
+	font-family: 'AvenirLTStd';src: url('/assets/v2/fonts/29B21B_4_0.eot');src: url('/assets/v2/fonts/29B21B_4_0.eot?#iefix') format('embedded-opentype'),url('/assets/v2/fonts/29B21B_4_0.woff') format('woff'),url('/assets/v2/fonts/29B21B_4_0.ttf') format('truetype');
 	font-weight: 600;
 }
 
 @font-face {
 	font-family: 'AvenirLTStd';
-	src: url('/assets/fonts/29B21B_1_0.eot');
-	src: url('/assets/fonts/29B21B_1_0.eot?#iefix') format('embedded-opentype'),
-		url('/assets/fonts/29B21B_1_0.woff') format('woff'),
-		url('/assets/fonts/29B21B_1_0.ttf') format('truetype');
+	src: url('/assets/v2/fonts/29B21B_1_0.eot');
+	src: url('/assets/v2/fonts/29B21B_1_0.eot?#iefix') format('embedded-opentype'),
+		url('/assets/v2/fonts/29B21B_1_0.woff') format('woff'),
+		url('/assets/v2/fonts/29B21B_1_0.ttf') format('truetype');
 	font-style: normal;
 	font-weight: 900;
 }
 
 @font-face {
     font-family: 'klinic';
-    src: url('/assets/fonts/klinicslabmediumit-webfont.woff') format('woff');
+    src: url('/assets/v2/fonts/klinicslabmediumit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }

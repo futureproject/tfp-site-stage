@@ -22,7 +22,7 @@ layout: v2
 <div id='fbs-video-ajax-target'>
 </div>
 
-<div class='student-videos-container'>
+<div id='student-videos-container'>
   <ul class='student-videos'>
   {% for video in site.categories.homepage-videos %}
     <li class='student-video fbs-video-container-{{ video.title | downcase | replace:' ', '-' }}'>
@@ -34,7 +34,28 @@ layout: v2
   </ul>
 </div>
 
+<div id="press-quotes">
+  <section id='press-quotes-viewer'>
+    {% for quote in site.categories.quotes %}
+      <article class='carousel-slide press-quote{% if forloop.first %} active{% endif %}'>
+        <div class='press-quote-content'>
+          “{{ quote.content | strip_newlines }}”
+        </div>
+        <div class='classy-sans'>
+          {{ quote.source }}
+        </div>
+      </article>
+    {% endfor %}
+  </section>
+  <div id="press-quotes-nav" class='sized-narrow'>
+    {% for quote in site.categories.quotes %}
+    <div class='{% if forloop.first %}active{% endif %} carousel-nav-item'>
+      <img src="/quotes/images/{{ quote.image }}" alt="{{ quote.source }}">
+    </div>
+    {% endfor %}
+  </div>
 </div>
+
 <div class='bg-black-blue pad'>
   <img src='/assets/v2/partners.png' alt="Our Partners" class='sized' />
 </div>
