@@ -7,7 +7,7 @@
 
 .person {
   height: 310px;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 .person img, .person .swapping-icons {
@@ -16,7 +16,7 @@
   margin-bottom: 5px;
 }
 .person-name {
-  font-weight: 600;
+  font-weight: 900;
 }
 .person-role {
   text-transform: uppercase;

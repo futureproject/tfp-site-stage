@@ -3,21 +3,17 @@ title: Videos
 layout: v2
 ---
 
+<article class='sized video-list'>
 {% for video in site.categories.videos %}
-  <article class="video">
-    <div class="row sized">
-      <div class="g4">
-        <br><br>
-        <h3>{{ video.title }}</h3>
-        <br>
-        <p>{{ video.content }}</p>
-      </div>
-      <div class="g8">
-        <div class="video_player">
-          <iframe name="video_frame" src="//player.vimeo.com/video/{{ video.vimeo_id }}"></iframe>
-        </div>
-      </div>
+  <div class="video">
+    <div class='video-player'>
+      <iframe src="//player.vimeo.com/video/{{ video.vimeo_id }}"></iframe>
     </div>
-  </article>
+    <div class='video-caption'>
+      <h3>{{ video.title }}</h3>
+      <p>{{ video.content }}</p>
+    </div>
+  </div><!-- .video -->
 {% endfor %}
+</article>
 

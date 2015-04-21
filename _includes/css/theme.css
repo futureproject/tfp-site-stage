@@ -12,7 +12,7 @@ html {
   color: #231f20;
 }
 
-body.no-page-header { border-top: 60px solid #84dbf5; }
+body.no-page-header { border-top: 75px solid #84dbf5; }
 
 #page-content {
   background: white;

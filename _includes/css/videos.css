@@ -21,6 +21,7 @@
 .video-list .video-caption {
   float: left;
   margin-right: 15px;
-  width: calc(50% - 30px);
+  width: calc(40% - 30px);
+  margin-left: 90px;
 }
 
