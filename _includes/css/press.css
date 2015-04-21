@@ -3,13 +3,25 @@
 }
 .press-link {
   overflow: hidden;
+  position: relative;
+  height: 240px;
 }
 
 .press-link-info {
-  background: #fafafa;
+  background: rgba(255,255,255,.8);
   padding: 15px;
-  height: 145px;
-  border: 1px solid #b5b5ba;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: all .3s;
+  -webkit-transform: translate3d(0,-100%,0);
+}
+.press-link:hover .press-link-info {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
 }
 .press-link-title {
   font-weight: 900;

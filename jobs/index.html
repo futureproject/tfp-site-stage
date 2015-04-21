@@ -9,7 +9,7 @@ header_text: Unleash your passion and purpose.<br>Join our team.
 
 <div id='job-listings' class='grid'>
 {% for job in site.categories.jobs %}
-  <figure class='job-listing span4 expandable'>
+  <figure class='job-listing grid-fourths expandable'>
     <a href="{{ job.link }}">
       <div class='swapping-icons'>
         <img src="job_icons/{{ job.icon }}" alt="{{ job.title }}" />

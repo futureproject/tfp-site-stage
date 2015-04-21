@@ -79,19 +79,19 @@
   box-sizing: border-box;
   margin: 0 15px 15px 0;
 }
-.span3 {
+.grid-thirds {
   float: left;
   width: 325px;
   box-sizing: border-box;
   margin: 0 15px 15px 0;
 }
-.span4 {
+.grid-fourths {
   float: left;
   width: 240px;
   box-sizing: border-box;
   margin: 0 15px 15px 0;
 }
-.span4:nth-of-type(4n), .span3:nth-of-type(3n), .span2:nth-of-type(6n) {
+.grid-fourths:nth-of-type(4n), .grid-thirds:nth-of-type(3n), .span2:nth-of-type(6n) {
   margin-right: 0;
 }
 

@@ -2,8 +2,8 @@
 ---
 
 /*
-span4: 255px;
-span3: 325px;
+grid-fourths: 255px;
+grid-thirds: 325px;
 *
 {% include css/loading.css %}
 {% include css/fonts.css %}
