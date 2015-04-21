@@ -12,6 +12,9 @@
 }
 #dd-recruitment-banner .button {
   -webkit-transform: rotate(-2.5deg);
+  -moz-transform: rotate(-2.5deg);
+  -ms-transform: rotate(-2.5deg);
+  transform: rotate(-2.5deg);
 }
 
 #student-hero {
@@ -179,16 +182,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b44ba', end
 
 #press-quotes-viewer {
   height: 300px;
-  width: 100%;
+  width: 750px;
+  margin: 0 auto;
   position: relative;
+}
+.press-quote .vertically-centered {
+  height: 300px;
 }
 .press-quote {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 300px;
-  width: 750px;
-  margin: -150px 0 0 -375px;
+  top: 0;
+  left: 0;
   background: white;
   text-align: center;
   opacity: 0;
@@ -203,7 +207,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b44ba', end
   font-size: 30px;
   line-height: 1.15;
   margin-bottom: 15px;
-  margin-top: 90px;
 }
 #press-quotes-nav {
   background: #f3f3f3;
@@ -216,7 +219,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b44ba', end
 }
 #press-quotes-nav img {
   opacity: .25;
-  height: 90px;
+  height: 105px;
   width: auto;
   cursor: pointer;
 }
