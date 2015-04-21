@@ -37,17 +37,19 @@ layout: v2
 <div id="press-quotes">
   <section id='press-quotes-viewer'>
     {% for quote in site.categories.quotes %}
-      <article class='carousel-slide press-quote{% if forloop.first %} active{% endif %}'>
-        <div class='press-quote-content'>
-          “{{ quote.content | strip_newlines }}”
+      <div class='carousel-slide press-quote{% if forloop.first %} active{% endif %}'>
+        <div class='vertically-centered'>
+          <div class='press-quote-content'>
+            “{{ quote.content | strip_newlines }}”
+          </div>
+          <div class='classy-sans'>
+            {{ quote.source }}
+          </div>
         </div>
-        <div class='classy-sans'>
-          {{ quote.source }}
-        </div>
-      </article>
+      </div>
     {% endfor %}
   </section>
-  <div id="press-quotes-nav" class='sized-narrow'>
+  <div id="press-quotes-nav" class='sized'>
     {% for quote in site.categories.quotes %}
     <div class='{% if forloop.first %}active{% endif %} carousel-nav-item'>
       <img src="/quotes/images/{{ quote.image }}" alt="{{ quote.source }}">

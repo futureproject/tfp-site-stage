@@ -12,6 +12,9 @@
 }
 #dd-recruitment-banner .button {
   -webkit-transform: rotate(-2.5deg);
+  -moz-transform: rotate(-2.5deg);
+  -ms-transform: rotate(-2.5deg);
+  transform: rotate(-2.5deg);
 }
 
 #student-hero {
@@ -177,18 +180,22 @@ background: linear-gradient(135deg,  rgba(27,68,186,1) 0%,rgba(72,2,183,1) 100%)
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b44ba', endColorstr='#4802b7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+#press-quotes {
+  position: relative;
+}
 #press-quotes-viewer {
   height: 300px;
-  width: 100%;
+  width: 750px;
+  margin: 0 auto;
   position: relative;
+}
+.press-quote .vertically-centered {
+  height: 300px;
 }
 .press-quote {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 300px;
-  width: 750px;
-  margin: -150px 0 0 -375px;
+  top: 0;
+  left: 0;
   background: white;
   text-align: center;
   opacity: 0;
@@ -203,7 +210,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b44ba', end
   font-size: 30px;
   line-height: 1.15;
   margin-bottom: 15px;
-  margin-top: 90px;
 }
 #press-quotes-nav {
   background: #f3f3f3;
@@ -216,10 +222,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b44ba', end
 }
 #press-quotes-nav img {
   opacity: .25;
-  height: 90px;
+  height: 105px;
   width: auto;
   cursor: pointer;
 }
 #press-quotes-nav .active img {
   opacity: 1;
+}
+#press-quotes:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  height: 100%;
+  width: 495px;
+  margin-left: -300px;
+  pointer-events: none;
+  background: #fff url(/assets/images/homepage-quotes-bg.jpg) no-repeat left top;
+  background-size: contain;
+  mix-blend-mode: multiply;
+  z-index: 0;
+
 }
