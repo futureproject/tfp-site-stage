@@ -1,17 +1,17 @@
 ---
 title: Press
-layout: default
+layout: v2
 ---
-<div class='fbs_grid'>
+<div id="press-links" class='grid'>
   {% for article in site.categories.press %}
-    <article>
+    <figure class='press-link span3'>
       <a href="{{ article.link }}">
         <img src="{{ article.image }}" alt="{{ article.title }}" />
-        <blockquote>
-          <h3>{{ article.title }}</h3>
-          <time>{{ article.date | date: "%D" }}</time>
-        </blockquote>
+        <div class='press-link-info'>
+          <div class='press-link-title grid-header'>{{ article.title }}</div>
+          <div class='press-link-date classy-sans'>{{ article.date | date: "%D" }}</div>
+        </div>
       </a>
-    </article>
+    </figure>
   {% endfor %}
 </div>

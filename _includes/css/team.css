@@ -18,12 +18,6 @@
 .person-name {
   font-weight: 900;
 }
-.person-role {
-  text-transform: uppercase;
-  font-size: 15px;
-  letter-spacing: 1px;
-  color: #b5b5ba;
-}
 .team .grid-info-box {
   background: #84dbf5;
   padding: 5px 30px;
