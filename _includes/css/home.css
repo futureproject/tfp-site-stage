@@ -13,9 +13,17 @@
   -webkit-transform: rotate(-2.5deg);
 }
 
+#student-hero {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+#student-hero img {
+  right: -180px;
+}
+
 .fbs-video-container {
   position: relative;
-  height: 360px;
+  height: 420px;
   width: 100%;
   background-color: black;
   background-size: cover;
@@ -25,7 +33,7 @@
   position: absolute;
   top: 0;
   left: -500px;
-  height: 360px;
+  height: 420px;
   right: 0;
   background-size: contain;
   background-position: center top;
@@ -43,9 +51,9 @@
   color: white;
 }
 .quote-content {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 900;
-  line-height: 1.2;
+  line-height: 1.15;
 }
 .quote-source {
   font-size: 20px;

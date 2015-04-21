@@ -44,7 +44,7 @@
 .button {
   display: inline-block;
   line-height: 1;
-  padding: 10px 10px 5px;
+  padding: 15px 15px 9px;
 }
 
 .grid {
@@ -154,13 +154,13 @@
 .article-with-photo-l *, .article-with-photo-r *, .article-with-photo-l-r * { position: relative; z-index: 2; }
 
 .article-with-photo-l {
-  min-height: 400px;
+  min-height: 500px;
   padding-right: 390px;
 }
 .article-with-photo-l img {
   position: absolute;
   bottom: 0;
-  right: -45px;
+  right: -75px;
   height: 100%;
   height: calc(100% - 30px);
   width: auto;
