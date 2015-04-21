@@ -64,6 +64,7 @@
   width: 50%;
 }
 #site-copyright {
+  margin-top: 30px;
   position: relative;
   height: 160px;
   padding: 15px 0;
