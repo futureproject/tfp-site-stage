@@ -43,11 +43,12 @@
 }
 
 #join-the-team img:first-of-type {
-  right: 615px;
+  right: 600px;
 }
 
 #join-the-team h2 {
 	top: 15px;
+	padding-top: 15px;
 }
 
 #join-the-team p {
