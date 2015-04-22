@@ -62,7 +62,6 @@
   width: 750px;
   float: left;
   padding: 15px;
-  border: 0px solid #f3f3f3;
 }
 .job-description ul {
   float: left;
@@ -72,7 +71,11 @@
   list-style: square;
   list-style-position: inside;
   padding: 15px;
-  border: 0px solid #f3f3f3;
+}
+#job-listings .button {
+  display: block;
+  margin: 0 auto;
+  width: 255px;
 }
 
 #meet-the-team img:first-of-type {

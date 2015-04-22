@@ -93,22 +93,12 @@ input[type=submit]:active, button:active, .button:active {
 }
 
 .button-solid {
-	background-color: #4ad3f4;
-}
-
-.button-center {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+  background-color: #4ad3f4;
 }
 
 .button-solid:hover {
-	background-color: #33adff;
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    -ms-transition: all .2s;
-    transition: all .2s;	
-} 
+  background-color: #33adff;
+}
 
 .bg-tfp-blue { background-color: #84dbf5; color: white; }
 .bg-black-blue { background-color: #121e29; color: white; }

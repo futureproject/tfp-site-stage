@@ -155,26 +155,27 @@
 
 .article-with-photo-l {
   min-height: 500px;
-  padding-right: 405px;
+  padding-left: 405px;
 }
 
 .article-with-photo-l img {
   position: absolute;
   bottom: 0;
-  right: -75px;
+  left: -75px;
   height: 100%;
   height: calc(100% - 30px);
   width: auto;
   z-index: 1;
 }
+
 .article-with-photo-r {
-  min-height: 400px;
-  padding-left: 390px;
+  min-height: 500px;
+  padding-right: 480px;
 }
 .article-with-photo-r img {
   position: absolute;
   bottom: 0;
-  left: -45px;
+  right: -45px;
   height: 100%;
   height: calc(100% - 30px);
   width: auto;

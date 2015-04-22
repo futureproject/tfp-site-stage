@@ -18,13 +18,11 @@
 }
 
 #student-hero {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  font-size: 23px;
-  line-height:1.2em;
+  padding-left: 30px;
+  padding-top: 90px;
 }
 #student-hero img {
-  right: -195px;
+  right: -120px;
 }
 
 .fbs-video-container {
