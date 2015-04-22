@@ -6,7 +6,7 @@
       self.slides = self.querySelectorAll('.carousel-slide')
       self.nav = self.querySelectorAll('.carousel-nav-item')
       self.next = function(){
-        self.index = self.index == self.slides.length ? 0 : self.index + 1
+        self.index = self.index < self.slides.length-1 ? self.index + 1 : 0
         self.go(self.index)
       }
       self.go = function(index) {
