@@ -11,8 +11,6 @@ grid-thirds: 325px;
 {% include css/layout.css %}
 {% include css/base.css %}
 {% include css/swipe.css %}
-{% include slick/slick.css %}
-{% include slick/slick-theme.css %}
 {% include css/modules.css %}
 {% include css/theme.css %}
 
