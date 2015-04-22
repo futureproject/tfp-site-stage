@@ -7,14 +7,14 @@
 .job-listing img { width: 240px; height: 218px; }
 .job-listing:hover, .job-listing.active { background: #84dbf3; }
 .job-listing .job-title {
-  margin-top: 210px;
+  margin-top: 195px;
   text-align: center;
 }
 .job-title {
   font-size: 20px;
   padding: 0 15px;
-  font-weight: 600;
-  line-height: 1;
+  font-weight: 900;
+  line-height: 1.15;
 }
 
 .job-listing {
@@ -62,7 +62,7 @@
   width: 750px;
   float: left;
   padding: 15px;
-  border: 1px solid #f3f3f3;
+  border: 0px solid #f3f3f3;
 }
 .job-description ul {
   float: left;
@@ -72,7 +72,7 @@
   list-style: square;
   list-style-position: inside;
   padding: 15px;
-  border: 1px solid #f3f3f3;
+  border: 0px solid #f3f3f3;
 }
 
 #meet-the-team img:first-of-type {
