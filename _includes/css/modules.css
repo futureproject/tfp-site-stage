@@ -155,8 +155,9 @@
 
 .article-with-photo-l {
   min-height: 500px;
-  padding-right: 390px;
+  padding-right: 405px;
 }
+
 .article-with-photo-l img {
   position: absolute;
   bottom: 0;
