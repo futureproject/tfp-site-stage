@@ -3,5 +3,5 @@ $(document).on('click', 'a[rel=vimeo]', function(event) {
   $container = $(this).closest('.vimeo-container')
   iframe = document.createElement('iframe')
   iframe.src = this.href
-  $container.html(iframe)
+  $container.html(iframe).addClass('video-loaded')
 })

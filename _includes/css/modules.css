@@ -24,6 +24,20 @@
   background-position: right top;
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
+}
+.page-header .button {
+  margin-top: 15px;
+}
+.page-header iframe {
+  border: none;
+  top: 0;
+  left: 0;
+  width: 750px;
+  height: 420px;
+}
+.page-header.video-loaded {
+  padding: 90px 0 30px;
 }
 
 .pad { padding: 30px; }

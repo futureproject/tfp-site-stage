@@ -1,3 +1,8 @@
-<header id='page-header-{{ page.title | downcase | replace:' ', '' }}' class='page-header align-center bg-tfp-blue'>
+<header id='page-header-{{ page.title | downcase | replace:' ', '' }}' class='page-header align-center bg-tfp-blue vimeo-container'>
   <div class='sized headline'>{{ page.header_text }}</div>
+  {% if page.vimeo_id %}
+  <a rel='vimeo' class='button' href="//player.vimeo.com/video/{{ page.vimeo_id }}?autoplay=1">
+    {{ page.vimeo_button_text }}
+  </a>
+  {% endif %}
 </header>
