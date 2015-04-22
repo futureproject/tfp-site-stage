@@ -40,8 +40,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 37px;
+  font-size: 43px;
   line-height: 1.15;
+  letter-spacing:-.5px;
 }
 
 a {
