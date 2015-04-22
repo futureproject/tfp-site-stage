@@ -173,6 +173,11 @@ article p {
   color: #625E6C;
 }
 
+#student-hero article p {
+    font-size: 23px;
+    line-height: 1.2em;
+}
+
 .compressed {
   letter-spacing: 0;
 }
