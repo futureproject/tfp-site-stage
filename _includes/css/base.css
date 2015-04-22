@@ -16,7 +16,7 @@ html, body {
 article {
   font-size: 20px;
   line-height: 25px;
-  padding: 30px 0;
+  padding: 30px 0px 80px;
   position: relative;
 }
 article:after {

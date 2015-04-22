@@ -1,5 +1,5 @@
 .sized {
-  width: 1005px;
+  width: 1080px;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
@@ -155,8 +155,9 @@
 
 .article-with-photo-l {
   min-height: 500px;
-  padding-right: 390px;
+  padding-right: 405px;
 }
+
 .article-with-photo-l img {
   position: absolute;
   bottom: 0;
@@ -192,6 +193,11 @@
   width: auto;
   z-index: 1;
 }
+
+.article-photo-bigger img {
+    height: calc(100% - 0px);
+}
+
 .article-with-photo-l-r img:first-of-type {
   left: -45px;
 }
