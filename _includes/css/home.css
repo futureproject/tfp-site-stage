@@ -21,10 +21,10 @@
   padding-top: 120px;
   padding-bottom: 120px;
   font-size: 23px;
-  line-height:1.2px;
+  line-height:1.2em;
 }
 #student-hero img {
-  right: -180px;
+  right: -195px;
 }
 
 .fbs-video-container {
@@ -99,6 +99,8 @@
   overflow: auto;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding: 0;
   list-style: none;
   white-space: nowrap;
