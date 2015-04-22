@@ -74,3 +74,18 @@
   padding: 15px;
   border: 1px solid #f3f3f3;
 }
+
+#meet-the-team img:first-of-type {
+  left: 90px;
+}
+#meet-the-team img:last-of-type {
+  right: 75px;
+}
+
+#meet-the-team h2 {
+	top: 15px;
+}
+
+#meet-the-team p {
+	padding-bottom: 15px;
+}

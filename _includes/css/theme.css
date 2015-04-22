@@ -52,9 +52,11 @@ a {
 }
 
 input[type=submit], button, .button {
-  font-size: 25px;
+  font-size: 21px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-weight:900;
+  padding: 17px 18px 11px;
   text-align: center;
   background-color: #84dbf5;
   background-color: rgba(38,207,255,.6);

@@ -193,6 +193,11 @@
   width: auto;
   z-index: 1;
 }
+
+.article-photo-bigger img {
+    height: calc(100% - 0px);
+}
+
 .article-with-photo-l-r img:first-of-type {
   left: -45px;
 }
