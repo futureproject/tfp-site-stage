@@ -1,5 +1,22 @@
 ---
-layout: v2
+layout: how
 title: How it Works
 ---
-{% include how_teaser.html %}
+
+{% for slide in site.categories.how %}
+  <div class='full-page-slide slide-step-{{ slide.step }}' id='slide-{{ slide.title | downcase | replace: ' ','-' }}'>
+    <header class='slide header'>
+      <div class='slide-step'>Step {{ slide.step }}</div>
+      <div class='slide-step-name'>
+        {% if slide.step == 1 %}Building the Dream Team
+        {% elsif slide.step == 2 %}Turning Dreams Into Action
+        {% elsif slide.step == 3 %}Transforming School Culture{% endif %}
+      </div>
+    </header>
+    <article>
+      <img src="/how/images/howitworks_{{ slide.step }}.{{ forloop.index }}.svg" alt="{{ slide.headline }}">
+      <h2>{{ slide.headline }}</h2>
+      <p>{{ slide.content }}</p>
+    </article>
+  </div>
+{% endfor %}

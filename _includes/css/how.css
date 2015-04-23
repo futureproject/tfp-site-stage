@@ -1,0 +1,43 @@
+.full-page-slide {
+  background: #03D0FF;
+  height: 100%;
+  padding: 30px;
+  position: relative;
+}
+.full-page-slide header {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  position: absolute;
+  position: -webkit-sticky;
+  top: 30px;
+  left: 0;
+}
+.full-page-slide article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 300px;
+  width: 1020px;
+  margin: -105px 0 0 -510px;
+  padding-left: 360px;
+}
+.full-page-slide img:first-of-type {
+  height: 300px;
+  width: 326px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.full-page-slide * {
+  color: #121e29;
+}
+.full-page-slide h2 {
+  color: white;
+}
+.slide-step-2 {
+  background: #009DE2;
+}
+.slide-step-3 {
+  background: #FFC41A;
+}

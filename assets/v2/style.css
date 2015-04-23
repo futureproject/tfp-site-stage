@@ -24,4 +24,5 @@ grid-thirds: 325px;
 {% include css/videos.css %}
 {% include css/contact.css %}
 {% include css/press.css %}
+{% include css/how.css %}
 
