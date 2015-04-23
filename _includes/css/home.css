@@ -40,12 +40,15 @@
   height: 420px;
   background-size: cover;
   background-position: center center;
+  margin-left: 45px;
+  margin-right: 45px;
+  overflow: hidden;
 }
 
 .fbs-video-poster {
   position: absolute;
   top: 0;
-  left: -500px;
+  left: -630px;
   height: 420px;
   right: 0;
   background-size: contain;
@@ -58,6 +61,7 @@
   position: absolute;
   left: 50%;
   top: 30px;
+  margin-left: -45px;
   bottom: 30px;
   width: 510px;
   padding: 15px 30px;
@@ -80,6 +84,8 @@
 
 #student-videos-container {
   position: relative;
+  margin-left: 45px;
+  margin-right: 45px;
 }
 .student-videos {
   overflow: auto;
@@ -169,8 +175,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f0832', end
 }
 
 .fbs-video-container-front-back-pop .fbs-video-poster {
-  background-position: left center;
   left: 0;
+  background-position: left center;
 }
 .fbs-video-container-gotbeauty .fbs-video-poster {
   background-position: left center;
