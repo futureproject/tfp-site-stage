@@ -4,3 +4,8 @@
   background-size: cover;
   background-position: left top;
 }
+
+body.impact .classy-serif:after {
+  margin-bottom: 0;
+}
+body.impact .video-list { padding-top: 0; }

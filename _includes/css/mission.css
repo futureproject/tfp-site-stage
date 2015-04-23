@@ -4,6 +4,9 @@
   background-size: cover;
   background-position: right top;
 }
+body.mission #how-it-works-teaser {
+  margin-bottom: 60px;
+}
 #how-it-works-teaser:after {
   content: '';
   display: block;

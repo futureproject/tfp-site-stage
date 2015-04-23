@@ -1,0 +1,11 @@
+<article id="how-it-works-teaser" class='sized article-with-photo-l-r article-short'>
+  <h2>How it Works</h2>
+  <p>Our process for transforming high-schools is as simple as it is powerful. Check out how it all works in three easy steps.</p>
+  <p>
+  {% for slide in site.categories.how | limit: 1 %}
+    <a class='button' href="{{ slide.url }}">Learn More</a>
+  {% endfor %}
+  </p>
+  <img src="/assets/images/howitworks_pre.left.svg" alt="How it works">
+  <img src="/assets/images/howitworks_pre.right.svg" alt="How it works">
+</article>

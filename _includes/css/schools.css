@@ -4,6 +4,7 @@
   background-size: cover;
 }
 
+.cities-nav { white-space: nowrap; }
 .cities-nav .swapping-icons {
   height: 155px;
 }

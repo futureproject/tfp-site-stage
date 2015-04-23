@@ -3,5 +3,6 @@ $(document).on('click', 'a[rel=vimeo]', function(event) {
   $container = $(this).closest('.vimeo-container')
   iframe = document.createElement('iframe')
   iframe.src = this.href
+  iframe.className = 'animated zoomIn'
   $container.html(iframe).addClass('video-loaded')
 })

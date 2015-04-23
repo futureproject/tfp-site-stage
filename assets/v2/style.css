@@ -5,6 +5,7 @@
 grid-fourths: 255px;
 grid-thirds: 325px;
 *
+{% include css/animate.css %}
 {% include css/loading.css %}
 {% include css/fonts.css %}
 {% include css/normalize.css %}

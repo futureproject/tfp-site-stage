@@ -38,6 +38,7 @@
 }
 .page-header.video-loaded {
   padding: 90px 0 30px;
+  height: 600px;
 }
 
 .pad { padding: 30px; }
@@ -198,7 +199,7 @@
 }
 .article-with-photo-l-r {
   min-height: 400px;
-  padding: 0 300px;
+  padding: 30px 300px;
   text-align: center;
 }
 .article-with-photo-l-r img {
