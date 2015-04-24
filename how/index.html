@@ -3,18 +3,22 @@ layout: how
 title: How it Works
 ---
 
+{% assign step = 0 %}
 {% for slide in site.categories.how %}
 <div class='scrolling-slide slide-with-{{ slide.images.size }}-images bg-step-{{ slide.step }}' id='slide-{{ slide.title | downcase | replace: ' ','-' }}' data-step='{{ slide.step }}'>
     <div class='scrolling-slide-content'>
-      <header class='scrolling-slide-header'>
-        <div class='slide-step'>Step {{ slide.step }}</div>
-        <div class='slide-step-name'>
-          {% if slide.step == 1 %}Building the Dream Team
-          {% elsif slide.step == 2 %}Turning Dreams Into Action
-          {% elsif slide.step == 3 %}Transforming School Culture{% endif %}
-        </div>
-      </header>
-      <article class=''>
+      {% if slide.step != step %}
+        <header class='scrolling-slide-header'>
+          <div class='slide-step'>Step {{ slide.step }}</div>
+          <div class='slide-step-name'>
+            {% if slide.step == 1 %}Building the Dream Team
+            {% elsif slide.step == 2 %}Turning Dreams Into Action
+            {% elsif slide.step == 3 %}Transforming School Culture{% endif %}
+          </div>
+        </header>
+        {% assign step = slide.step %}
+      {% endif %}
+      <article>
         <h2>{{ slide.headline }}</h2>
         <p>{{ slide.content }}</p>
       </article>

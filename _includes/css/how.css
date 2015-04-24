@@ -32,6 +32,10 @@
   z-index: 10;
   padding: 30px;
   letter-spacing: 3px;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 }
 .slide-step {
   color: rgba(255,255,255,.5);
