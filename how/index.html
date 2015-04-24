@@ -3,12 +3,9 @@ layout: how
 title: How it Works
 ---
 
-{% assign step = 0 %}
 {% for slide in site.categories.how %}
 <div class='scrolling-slide slide-with-{{ slide.images.size }}-images bg-step-{{ slide.step }}' id='slide-{{ slide.title | downcase | replace: ' ','-' }}' data-step='{{ slide.step }}'>
     <div class='scrolling-slide-content'>
-    {% if slide.step != step %}
-      {% assign step = slide.step %}
       <header class='scrolling-slide-header'>
         <div class='slide-step'>Step {{ slide.step }}</div>
         <div class='slide-step-name'>
@@ -17,7 +14,6 @@ title: How it Works
           {% elsif slide.step == 3 %}Transforming School Culture{% endif %}
         </div>
       </header>
-    {% endif %}
       <article class=''>
         <h2>{{ slide.headline }}</h2>
         <p>{{ slide.content }}</p>
@@ -28,7 +24,7 @@ title: How it Works
     </div>
   </div>
 {% endfor %}
-<div id="scrolling-instructions">
+<div id="scrolling-instructions" class='animated bounceInDown'>
   Scroll Down
 </div>
 <a class='close' href="/mission">+</a>

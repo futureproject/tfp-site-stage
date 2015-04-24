@@ -23,7 +23,7 @@ if (!Modernizr.touch) {
   $('#scrolling-instructions').each(function(){
     self = $(this)
     $(window).one('scroll', function(event) {
-      self.addClass('animated fadeOut')
+      self.addClass('animated fadeOutUp')
     })
   })
 }
