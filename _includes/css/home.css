@@ -266,3 +266,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b44ba', end
   background-size: contain;
   z-index: 1;
 }
+
+#impressive-looking-logos {
+  width: 960px;
+  height: auto;
+}
