@@ -20,4 +20,10 @@ if (!Modernizr.touch) {
     },
     offset: '50%'
   })
+  $('#scrolling-instructions').each(function(){
+    self = $(this)
+    $(window).one('scroll', function(event) {
+      self.addClass('animated fadeOut')
+    })
+  })
 }
