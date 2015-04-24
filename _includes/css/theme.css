@@ -6,8 +6,8 @@
  * black-blue: #121e29;
 */
 
-html {
-  background: #121e29;
+body {
+  background-color: #121e29;
   font-family: 'AvenirLTStd', 'Avenir Next', sans-serif;
   color: #231f20;
 }
