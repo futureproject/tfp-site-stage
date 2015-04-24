@@ -1,16 +1,13 @@
 .how-it-works {
   background: #03D0FF;
 }
-.scrolling-slideshow {
-  transition: background .25s;
-}
-.slide-step-1 {
+.bg-step-1 {
   background: #03D0FF;
 }
-.slide-step-2 {
+.bg-step-2 {
   background: #009DE2;
 }
-.slide-step-3 {
+.bg-step-3 {
   background: #FFC41A;
 }
 .scrolling-slide {
@@ -51,6 +48,7 @@
   width: 1020px;
   margin: -155px 0 0 -510px;
   padding-left: 360px;
+  padding-right: 30px;
 }
 .scrolling-slide img {
   height: 300px;
@@ -59,14 +57,6 @@
   left: 50%;
   top: 50%;
   margin: -165px 0 0 -510px;
-}
-.scrolling-slideshow img {
-  opacity: 0;
-  -webkit-transition: opacity .5s;
-  -webkit-transition-delay: .25s;
-}
-.scrolling-slideshow .active img {
-  opacity: 1;
 }
 .scrolling-slide h2 {
   color: white;
@@ -106,4 +96,44 @@ a.close {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   z-index: 100;
+}
+
+#scrolling-instructions {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#scrolling-instructions:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid;
+}
+
+/* Only when slideshow is activated */
+
+.scrolling-slideshow {
+  -webkit-transition: background .5s;
+}
+.scrolling-slideshow .scrolling-slide {
+  background: transparent;
+}
+.scrolling-slide img {
+  position: fixed;
+  opacity: 0;
+  transform: scale(0.2, 0.2);
+  transition: all .3s;
+}
+.scrolling-slide.active img {
+  opacity: 1;
+  transform: translate3d(0,0,0);
 }

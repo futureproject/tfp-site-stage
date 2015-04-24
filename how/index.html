@@ -5,8 +5,8 @@ title: How it Works
 
 {% assign step = 0 %}
 {% for slide in site.categories.how %}
-  <div class='scrolling-slide slide-with-{{ slide.images.size }}-images' id='slide-{{ slide.title | downcase | replace: ' ','-' }}' data-step='{{ slide.step }}'>
-    <div class='scrolling-slide-content animated bounceInDown'>
+<div class='scrolling-slide slide-with-{{ slide.images.size }}-images bg-step-{{ slide.step }}' id='slide-{{ slide.title | downcase | replace: ' ','-' }}' data-step='{{ slide.step }}'>
+    <div class='scrolling-slide-content'>
     {% if slide.step != step %}
       {% assign step = slide.step %}
       <header class='scrolling-slide-header'>
@@ -18,7 +18,7 @@ title: How it Works
         </div>
       </header>
     {% endif %}
-      <article>
+      <article class='animated bounceInDown'>
         <h2>{{ slide.headline }}</h2>
         <p>{{ slide.content }}</p>
       </article>
@@ -28,4 +28,7 @@ title: How it Works
     </div>
   </div>
 {% endfor %}
+<div id="scrolling-instructions">
+  Scroll Down
+</div>
 <a class='close' href="/mission">+</a>
