@@ -1,5 +1,5 @@
 ---
-title: City Deputy Director, New York
+title: Deputy Director, New York
 layout: jobs-ajax
 link: http://thefutureproject.theresumator.com/apply/AsEqJ9/City-Deputy-Director-New-York.html
 location: NYC

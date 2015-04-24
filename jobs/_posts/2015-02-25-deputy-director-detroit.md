@@ -1,5 +1,5 @@
 ---
-title: City Deputy Director, Detroit
+title: Deputy Director, Detroit
 layout: jobs-ajax
 link: http://thefutureproject.theresumator.com/apply/upvAaQ/City-Deputy-Director-Detroit.html
 location: NYC

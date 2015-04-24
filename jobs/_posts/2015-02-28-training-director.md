@@ -1,5 +1,5 @@
 ---
-title: Training Director
+title: VP, Training and Development
 layout: jobs-ajax
 link: http://thefutureproject.theresumator.com/apply/Ai73rG/Training-Director.html
 location: Flexible

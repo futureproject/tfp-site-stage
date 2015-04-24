@@ -1,5 +1,5 @@
 ---
-title: City Deputy Director, Washington D.C.
+title: Deputy Director, Washington D.C.
 layout: jobs-ajax
 link: http://thefutureproject.theresumator.com/apply/R2juD6/City-Deputy-Director-Washington-Dc.html
 location: DC
