@@ -15,11 +15,11 @@
 }
 .scrolling-slide {
   height: 100%;
-  padding: 30px;
 }
 .scrolling-slide-content {
   height: 100%;
   position: relative;
+  padding: 30px;
 }
 .scrolling-slide p {
   color: #121e29;
