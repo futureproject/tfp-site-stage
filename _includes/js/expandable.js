@@ -1,11 +1,16 @@
 $(document).on('click', '.grid .expandable', function(event) {
   event.preventDefault()
   $t = $(this)
-  $markup = $t.find('.expandable-content').html()
+  vimeo_id = this.getAttribute('data-vimeo-id')
+  if (!!vimeo_id) {
+    $markup = $("<iframe src='//player.vimeo.com/video/" + vimeo_id + "?autoplay=1'></iframe>")
+  } else {
+    $markup = $t.find('.expandable-content').html()
+  }
   $('.grid-info-box').slideUp(function(){
     $(this).remove()
   })
-  if ($t.hasClass('active') || $markup.length <= 1) {
+  if ($t.hasClass('active')) {
     $t.removeClass('active')
     return
   }

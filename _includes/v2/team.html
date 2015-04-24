@@ -1,7 +1,7 @@
 <div class='grid'>
 {% for person in site.categories.team reversed %}
   {% if person.team contains team %}
-  <figure class="grid-thirds person {{ person.team }}{% if person.content != nil %} expandable{% endif %}">
+  <figure class="grid-thirds person {{ person.team }}{% if person.content != nil || person.vimeo_id %} expandable{% endif %}"{% if person.vimeo_id %} data-vimeo-id="{{ person.vimeo_id }}"{% endif %}>
       <div class='swapping-icons'>
         <img src="images/team_{{ person.portrait }}_1.jpg" alt="{{ person.title }}" />
         <img src="images/team_{{ person.portrait }}_2.jpg" alt="{{ person.title }}" />
