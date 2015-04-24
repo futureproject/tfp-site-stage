@@ -127,6 +127,7 @@ a.close {
 .scrolling-slideshow .scrolling-slide {
   background: transparent;
 }
+
 .scrolling-slide img {
   position: fixed;
   opacity: 0;
@@ -134,6 +135,17 @@ a.close {
   transition: all .3s;
 }
 .scrolling-slide.active img {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
+.scrolling-slide article {
+  position: fixed;
+  opacity: 0;
+  transform: translate3d(0,-50%,0);
+  transition: all .3s;
+}
+.scrolling-slide.active article {
   opacity: 1;
   transform: translate3d(0,0,0);
 }
