@@ -5,25 +5,27 @@ title: How it Works
 
 {% assign step = 0 %}
 {% for slide in site.categories.how %}
-  <div class='full-page-slide slide-step-{{ slide.step }} slide-with-{{ slide.images.size }}-images' id='slide-{{ slide.title | downcase | replace: ' ','-' }}'>
-  {% if slide.step != step %}
-    {% assign step = slide.step %}
-    <header class='full-page-slide-header'>
-      <div class='slide-step'>Step {{ slide.step }}</div>
-      <div class='slide-step-name'>
-        {% if slide.step == 1 %}Building the Dream Team
-        {% elsif slide.step == 2 %}Turning Dreams Into Action
-        {% elsif slide.step == 3 %}Transforming School Culture{% endif %}
-      </div>
-    </header>
-  {% endif %}
-    <article>
-      <h2>{{ slide.headline }}</h2>
-      <p>{{ slide.content }}</p>
-    </article>
-    {% for image in slide.images %}
-      <img src="/how/images/{{ image }}" alt="{{ slide.headline }}">
-    {% endfor %}
+  <div class='scrolling-slide slide-with-{{ slide.images.size }}-images' id='slide-{{ slide.title | downcase | replace: ' ','-' }}' data-step='{{ slide.step }}'>
+    <div class='scrolling-slide-content animated bounceInDown'>
+    {% if slide.step != step %}
+      {% assign step = slide.step %}
+      <header class='scrolling-slide-header'>
+        <div class='slide-step'>Step {{ slide.step }}</div>
+        <div class='slide-step-name'>
+          {% if slide.step == 1 %}Building the Dream Team
+          {% elsif slide.step == 2 %}Turning Dreams Into Action
+          {% elsif slide.step == 3 %}Transforming School Culture{% endif %}
+        </div>
+      </header>
+    {% endif %}
+      <article>
+        <h2>{{ slide.headline }}</h2>
+        <p>{{ slide.content }}</p>
+      </article>
+      {% for image in slide.images %}
+        <img src="/how/images/{{ image }}" alt="{{ slide.headline }}">
+      {% endfor %}
+    </div>
   </div>
 {% endfor %}
-  <a class='close' href="/mission">+</a>
+<a class='close' href="/mission">+</a>
